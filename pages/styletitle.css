@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 85%;
+  height: 75px;
+  margin: auto;
+  position: absolute;
+}
+
+.rishum {
+  width: 2px;
+  height: 75px;
+  margin: auto;
+}
+/* .icon{
+    width: 300px;
+    float: left;
+    height: 75px;
+}
+
+.logo{
+    color:#fff;
+    font-size: 28px;
+    font-family: Arial;
+    padding-left: 2px;
+    float: left;
+    padding-top: 20px;
+} */
+#nav {
+  list-style: none;
+  position: static;
+  left: 0;
+  top: 220px;
+}
+
+.menu {
+  width: 1000px;
+  float: left;
+  height: 40%;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 17px;
+  font-size: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: rgba(26, 94, 117, 0.993);
+}
+
+/* 
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 1050px;
+    margin-top: -51px;
+}
+
+.srch{
+    font-family: Verdana;
+    width: 200px;
+    height: 29px;
+    background: transparent;
+    border: 2px solid rgb(51, 89, 128);
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+   
+}
+
+
+.btn{
+    width: 50px;
+    height: 29px;
+    background: rgb(65, 80, 136);
+    border:2px solid rgb(21, 16, 16);
+    margin-top: 0px;
+    color: #fff;
+    font-size:15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    transition: 0.2s ease;
+    cursor: pointer;
+} */
+
+/* .btn:hover{
+    color: #000;
+}
+.btn:focus{
+    outline:none;
+}
+
+.srch:focus {
+    outline: none;
+}
+ */

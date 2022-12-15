@@ -15,11 +15,7 @@
   height: 75px;
   margin: auto;
 }
-/* .icon{
-    width: 300px;
-    float: left;
-    height: 75px;
-}
+
 
 .logo{
     color:#fff;
@@ -68,13 +64,6 @@ ul li a:hover {
   color: rgba(26, 94, 117, 0.993);
 }
 
-/* 
-.search{
-    width: 330px;
-    float: left;
-    margin-left: 1050px;
-    margin-top: -51px;
-}
 
 .srch{
     font-family: Verdana;

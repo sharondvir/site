@@ -23,7 +23,7 @@
     font-family: "Rubik",sans-serif;
     float: left;
     padding-top: 44px;
-    padding-left: 20px;
+    padding-left: 40px;
     
 } */
 #nav {
@@ -66,6 +66,8 @@ ul li a {
 ul li a:hover {
   color: rgba(35, 123, 161, 0.993);
 }
+
+
 
 
 /* .srch{

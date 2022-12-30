@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400&family=Poppins:wght@100;300;500&family=Questrial&family=Rubik:wght@300;500;800&display=swap");
+
+body {
+  margin: 20px;
+  /* font-family: "Poppins"; */
+  background: #d1dedd;
+}
+
+h1,
+h2,
+h3 {
+  color: #419c91;
+}
+
+p {
+  color: #828b8a;
+}
+
+header {
+  max-width: 1200px;
+  margin: 40px auto;
+  border-bottom: 1px solid #bbc7c7;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+article img,
+article.featured img {
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+article p,
+article h3 {
+  margin: 20px 10px;
+}

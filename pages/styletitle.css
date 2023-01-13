@@ -17,15 +17,15 @@
 }
 
 
-.logo{
+/* .logo{
     color:#000;
     font-size: 22px;
     font-family: "Rubik",sans-serif;
     float: left;
     padding-top: 44px;
-    padding-left: 20px;
+    padding-left: 40px; */
     
-} */
+/* } */ */
 #nav {
   list-style: none;
   position: static;
@@ -37,8 +37,11 @@
   width: 100px;
   float: left;
   font-family: "Rubik",sans-serif;
-  padding-top: 32px;
-  padding-left: 20px;
+  padding-top: 1px;
+  padding-left: 200px;
+  margin-top: -3.5%;
+  
+
 }
 
 ul {
@@ -60,11 +63,21 @@ ul li a {
   color: #000;
   font-family: "Rubik",sans-serif;
   font-weight: bold;
-  transition: 0.4s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 ul li a:hover {
-  color: rgba(35, 123, 161, 0.993);
+  background-color: #170782;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  
+}
+
+
+.icon{
+  padding-left:85px;
+  padding-top:  20px;
 }
 
 
@@ -109,3 +122,4 @@ ul li a:hover {
 .srch:focus {
     outline: none;
 } */
+

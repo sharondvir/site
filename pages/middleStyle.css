@@ -38,7 +38,7 @@ h1{
   font-size: 52;
   margin-bottom: 32px;
   line-height: 1.05;
-
+  
 
 }
 
@@ -53,7 +53,7 @@ p{
 .btn.visited{
     font-size: 20px;
     font-weight: 600;
-    background-color: #5fcbef	;
+    background-color: #3697aa	;
     color:#fff;
     text-decoration: none;
     display: inline-block;

@@ -1,0 +1,101 @@
+<html>
+<head>
+<script language="javascript">
+	var i=1,n=15;
+function Next()
+	{
+		
+		if(i==n) {
+			i=1;
+		}
+		else {
+			i++;
+		}
+		pic1.src="../pictures/1"+i+".jpg";
+		pic1.width="500";
+		pic1.height="300";
+		
+	}
+function Prev()
+	{
+		if(i==1) {
+			i=n;
+		}
+		else {
+			i--;
+		}
+		pic1.src="../pictures/2"+i+".jpg";
+		pic1.width="500";
+		pic1.height="300";
+	}
+
+ </script> 
+ <style>
+body
+{
+	background-image:url('../pictures/bck1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+table
+	{
+		position:absolute;
+		left:50%;
+		top: 57%;
+		margin-left:-415px;
+		margin-top:-250px;
+	
+	}
+	input[type="button"]
+		{
+			background:none;
+			border:none;
+			font-size:42px;
+			font-weight:bold;
+			color:white;
+			cursor:pointer;
+			transition: all 0.2s ease-in;
+		}
+		input[type="button"]:hover
+		{
+			color:gray;
+			font-size:80px;
+			
+		}
+img
+	{
+		width:750px;
+		height:450px;
+	}
+</style>
+</head>
+
+<body>
+	<link href="https://fonts.googleapis.com/css2?family=Questrial&family=Rubik:wght@300;600;800&display=swap" rel="stylesheet">
+	<font face="Rubik" size="5.5" color="white">
+	<h1 style="text-align:center;">
+	<b>Gallery</b>
+	</h1>
+	
+  <table align="center">
+    <tr>
+	<td><input type="button" name="prev" onClick="Prev();"  value="<"></td>
+      <td colspan="2"> <img src="../pictures/surfers.jpg" name="pic1"> </td>
+	  <td><input type="button" name="next" onClick="Next();" value=">"></td>
+	  
+    </tr>
+	
+	
+
+	
+    
+      
+      
+    
+  </table>
+  </font>
+</body>
+
+</html>

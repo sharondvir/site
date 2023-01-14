@@ -1,26 +1,26 @@
  body{
-    font-family: "Rubik",sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    background-color:powderblue ;
+    background-color:#6eafa7;
     
 }
  
 .paragraph{
-    padding-top: 40px;
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    border-radius: 20px;
 }
 
 .column{
     padding-top: 50px ;
 }
-/* .container videoS{
-   padding-top: 60%;
-   padding-right: 50%;
-}
-.text{
-    border: 10px;
-    border-color: aqua;
-    position:fixed;
+
+.links{
+    padding-top: 110px;
+    padding-left: 10%;
     align-items: center;
-} */
+    color: black;
+    border: 2px;
+    border-color: aqua;
+}
+
  

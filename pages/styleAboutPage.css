@@ -11,7 +11,6 @@
   display: flex;
   background-color: #5b9b93;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .aboutUs .content img {
@@ -40,13 +39,6 @@
   font-size: 17px;
   color: #fff;
 }
-
-/* .evenly-spaced {
-    border-spacing: 10px;
-    margin: 20px 0;
-    padding: 24px 24px 8px;
-    text-align: justify;
-  } */
 
   .article {
     float: left;

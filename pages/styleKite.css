@@ -1,5 +1,4 @@
 *{
-  /* מאתחלים  */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,14 +24,6 @@ html{
   padding-top:30px;
 }
 
-.sidebar-one {
-  flex: 1;
-  order: 1;
-  padding-top: 50px;
-}
-
-.sidebar-two {
-  flex: 1;
-  order: 3;
-  padding-top: 50px;
+.videoStyling{
+  padding-left: 30%;
 }

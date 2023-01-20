@@ -1,8 +1,8 @@
 <html>
   <head>
     <script language="javascript">
-      var currentPicture = 1,
-        numberOfPictures = 10;
+      var currentPicture = 1;
+      var numberOfPictures = 10;
       function NextPicture() {
         if (currentPicture == numberOfPictures) {
           currentPicture = 1;
@@ -71,11 +71,21 @@
       <table align="center">
         <tr>
           <td>
-            <input type="button" name="prev" onClick="PreviousPicture();" value="<" />
+            <input
+              type="button"
+              name="prev"
+              onClick="PreviousPicture();"
+              value="<"
+            />
           </td>
           <td colspan="2"><img src="../pictures/surfers.jpg" name="pic1" /></td>
           <td>
-            <input type="button" name="next" onClick="NextPicture();" value=">" />
+            <input
+              type="button"
+              name="next"
+              onClick="NextPicture();"
+              value=">"
+            />
           </td>
         </tr>
       </table>

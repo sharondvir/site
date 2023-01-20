@@ -1,7 +1,14 @@
 <html dir="ltr">
   <head>
     <link rel="stylesheet" type="text/css" href="registerStyle.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Rubik:wght@300;600;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&family=Rubik:wght@300;600;800&display=swap"
+      rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap"
+      rel="stylesheet"/>
     <meta charset="utf-8" />
   </head>
   <body>
@@ -9,11 +16,33 @@
       <form>
         <h1><label align="center">Register</label></h1>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required /><br />
+        <input type="text" id="name" name="name" required /><br/>
+        <label for="IdNumber">ID Number:</label>
+        <input type="number" id="IdNumber" name="IdNumber"
+         min="10" max="100000000">
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required /><br />
+        <input type="email" id="email" name="email" required /><br/>
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required /><br />
+        <input type="password" id="password" name="password" required /><br/>
+        Gender :
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female 
+        <br></br>
+        <input type="checkbox" id="checkIfSurfer" name="surfer" value="Professional" <label for="surfer">I'm a surfer </label><br>
+        <input type="checkbox" id="checkIfBegginer" name="begginer" value="Begginer" <label for="begginer">I'm a begginer</label><br>
+        <input type="checkbox" id="checkifDontSurf" name="DontSurfing" value="new" <label for="DontSurfing">I don't surf</label><br>
+        <br></br>
+        <label for="color">Choose your surfboard:</label>
+        <select id="surfboards" name="surfboards">
+        <option value="soft">Soft board</option>
+        <option value="fun">Fun board</option>
+        <option value="long">Long board</option>
+        <option value="short">Short board</option>
+        </select><br><br>
+        <div class="birthday">
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate">
+        </div></br></br>
         <input type="submit" value="Submit" />
       </form>
     </div>

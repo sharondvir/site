@@ -25,11 +25,9 @@
 .menu {
   width: 100px;
   float: left;
-  font-family: "Rubik",sans-serif;
+  font-family: "Rubik", sans-serif;
   padding-left: 160px;
   margin-top: -4%;
-  
-
 }
 
 ul {
@@ -49,7 +47,7 @@ ul li {
 ul li a {
   text-decoration: none;
   color: #000;
-  font-family: "Rubik",sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: bold;
   transition: 0.3s ease-in-out;
 }
@@ -59,12 +57,9 @@ ul li a:hover {
   color: white;
   padding: 12px 20px;
   text-decoration: none;
-  
 }
 
-.icon{
-  padding-left:85px;
-  padding-top:  20px;
+.icon {
+  padding-left: 85px;
+  padding-top: 20px;
 }
-
-

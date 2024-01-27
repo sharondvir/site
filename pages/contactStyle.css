@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: url(../pictures/contactPic.jpg);
+    opacity: 5;
+    background-size: cover;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linkStyle a{
+    background-color: #170782;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    
+}
+
+.linkStyle a:hover{
+    text-decoration: none;
+}
+
+.container{
+    width:80%;
+    margin: 50px auto;
+}
+
+.content-Box{
+    background-color: #fff;
+    display: flex;
+}
+
+.content-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.content-right{
+   flex-basis: 40%;
+   padding: 40px;
+   background-color:rgb(67, 141, 195);
+}
+
+.container h1{
+    margin-bottom: 10px;
+    color: rgb(26, 80, 205);
+}
+
+.container p{
+     margin-bottom: 40px;
+}
+
+
+.input-row{
+     display: flex;
+     margin-bottom: 20px;
+     justify-content: space-between;
+}
+
+
+.input-row .input-group{
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+button {
+    background-color: blue;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    padding: 0 20px;
+    border-radius: 20px;
+    height: 43px;
+    width:100px;
+  }
+
+.textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px;
+    border-color: black;    
+}
+
+.styleTitle h4{
+ padding-top: 15%;
+}

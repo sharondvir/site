@@ -15,17 +15,6 @@
   height: 75px;
   margin: auto;
 }
-
-
-/* .logo{
-    color:#000;
-    font-size: 22px;
-    font-family: "Rubik",sans-serif;
-    float: left;
-    padding-top: 44px;
-    padding-left: 40px; */
-    
-/* } */ */
 #nav {
   list-style: none;
   position: static;
@@ -36,12 +25,9 @@
 .menu {
   width: 100px;
   float: left;
-  font-family: "Rubik",sans-serif;
-  padding-top: 1px;
-  padding-left: 200px;
-  margin-top: -3.5%;
-  
-
+  font-family: "Rubik", sans-serif;
+  padding-left: 160px;
+  margin-top: -4%;
 }
 
 ul {
@@ -61,7 +47,7 @@ ul li {
 ul li a {
   text-decoration: none;
   color: #000;
-  font-family: "Rubik",sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: bold;
   transition: 0.3s ease-in-out;
 }
@@ -71,55 +57,9 @@ ul li a:hover {
   color: white;
   padding: 12px 20px;
   text-decoration: none;
-  
 }
 
-
-.icon{
-  padding-left:85px;
-  padding-top:  20px;
+.icon {
+  padding-left: 85px;
+  padding-top: 20px;
 }
-
-
-/* .srch{
-    font-family: Verdana;
-    width: 200px;
-    height: 29px;
-    background: transparent;
-    border: 2px solid rgb(51, 89, 128);
-    color: #fff;
-    border-right: none;
-    font-size: 16px;
-    float:left;
-    padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-   
-}
-
-
-.btn{
-    width: 50px;
-    height: 29px;
-    background: rgb(65, 80, 136);
-    border:2px solid rgb(21, 16, 16);
-    margin-top: 0px;
-    color: #fff;
-    font-size:15px;
-    border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px ;
-    transition: 0.2s ease;
-    cursor: pointer;
-} */
-
-/* .btn:hover{
-    color: #000;
-}
-.btn:focus{
-    outline:none;
-}
-
-.srch:focus {
-    outline: none;
-} */
-

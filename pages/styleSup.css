@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-family: 'Questrial',sans-serif;
+    color: #444;
+  }
+
+  .column-layout {
+    max-width: 800px;
+    background-color: rgb(117, 170, 196);
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+  }
+  
+  .main-column {
+    flex: 3;
+    order: 2;
+    padding-top:30px;
+  }
+  
+  .sidebar-one {
+    flex: 1;
+    order: 1;
+    padding-top: 50px;
+  }
+  
+  .sidebar-two {
+    flex: 1;
+    order: 3;
+    padding-top: 50px;
+  }
+  
+  .videoStyling{
+    padding-left: 30%;
+  }

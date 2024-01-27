@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400&family=Poppins:wght@100;300;500&family=Questrial&family=Rubik:wght@300;500;800&display=swap");
-
 body {
   margin: 20px;
-  /* font-family: "Poppins"; */
+  font-family: 'Questrial',sans-serif;
   background: #d1dedd;
 }
 
@@ -13,7 +11,7 @@ h3 {
 }
 
 p {
-  color: #828b8a;
+  color: #000000;
 }
 
 header {

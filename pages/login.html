@@ -2,15 +2,25 @@
     <head>
     <meta charset="utf-8">
     <title>login page</title>
-    <!-- <link rel="stylesheet" href="loginstyle.css"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Rubik:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href=" registerStyle.css">
 
    
 
     </head>
     <body>
-     <div class="center">
+        <form>
+        <h1><label align="center">Login</label></h1>
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name" required ><br>        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required ><br/>
+        <input type="reset" id="resetButton" name="reset" >
+        <br><br>
+        <input type="submit" value="login" >
+     <!-- <div class="center">
         <form method="post">
             <div class="txtfield">
                <h1> <label>LOGIN</label></h1>
@@ -23,13 +33,9 @@
                 <span></span>
                 <label>Password</label>
             </div>
-            <!-- <div class="pass" >Forgot Password ?</div> -->
             <input type="submit" value="login">
-            <div class="signup_link">
-               Don't have an account ? <a href="register.html">Register</a>
-            </div>
         </form>
-
-     </div>
+     </div> -->
+    </form>
     </body>
 </html>

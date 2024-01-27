@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-family: 'Questrial',sans-serif;
+    color: #444;
+  }
+
+.column-layout {
+    max-width: 800px;
+    background-color: rgb(152, 179, 218);
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+  }
+  
+  .main-column {
+    flex: 3;
+    order: 2;
+    padding-top:30px;
+  }
+
+  .videosurf{
+    padding-left: 30%;
+  }
+  
